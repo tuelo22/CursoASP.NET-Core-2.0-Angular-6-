@@ -4,40 +4,62 @@
     <meta charset="utf-8" />
     <title>Meu App</title>
     <link href="css/Site.css" rel="stylesheet" />
+    <script src="jquery/jquery-3.3.1.min.js"></script>
     <script src="js/Index.js"></script>
 </head>
 <body>
     <h2>Meu APP</h2>
     <div>
-        <img src="img/SamsungJ2.jpg" width="200" height="200"/>
+        <img src="img/SamsungJ2.jpg" width="200" height="200" />
         <h3>Smartphone Samsung Galaxy J2 Pro Dual Chip Android 7.1 Tela 5" Quad-Core 1.4GHz 16GB 4G Câmera 8MP - Dourado</h3>
         <ul class="preco-produto">
             <li>De: R$ 1.044,05</li>
             <li>Por: R$ 688,00</li>
             <li>Em até 12x de R$ 58,25 sem juros</li>
         </ul>
-        <button>Comprar</button>
-    </div>
-    <div id="meu-form">
-        <form>
-            <label>Seu Nome:</label>
-            <br />
-            <input type="text" />
-            <br />
-            <label>Email:</label>
-            <br />
-            <input type="email" />
-            <br />
-            <label>Assunto:</label>
-            <br />
-            <input type="text" />
-            <br />
-            <label>Mensagem:</label>
-            <br />
-            <textarea rows="4"></textarea>
-            <br />
-            <input type="submit" value="Enviar Mensagem" />
-        </form>
-    </div>
+        <button id="meu-button">Comprar</button>
+        <!--  </div>
+      <div id="meu-form">
+          <form>
+              <label>Seu Nome:</label>
+              <br />
+              <input type="text" />
+              <br />
+              <label>Email:</label>
+              <br />
+              <input type="email" />
+              <br />
+              <label>Assunto:</label>
+              <br />
+              <input type="text" />
+              <br />
+              <label>Mensagem:</label>
+              <br />
+              <textarea rows="4"></textarea>
+              <br />
+              <input type="submit" value="Enviar Mensagem" />
+          </form>
+      </div> -->
+        <br />
+        <div>
+            <div id="login">Login</div>
+            <form id="popup-form" class="popup-form">
+                <div>
+                    <label>Usuário</label>
+                    <input />
+                </div>
+                <div>
+                    <label>Senha</label>
+                    <input type="password" />
+                </div>
+                <div>
+                    <input type="checkbox" />
+                    <label>Manter conectado ?</label>
+                </div>
+                <div>
+                    <input type="submit" value="Entrar" />
+                </div>
+            </form>
+        </div>
 </body>
 </html>
