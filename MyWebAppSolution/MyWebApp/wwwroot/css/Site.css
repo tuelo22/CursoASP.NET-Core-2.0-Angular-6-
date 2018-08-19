@@ -1,0 +1,28 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input, textarea {
+    font-size: 18px;
+    width: 200px;
+}
+
+label {
+    font-size: 16px;
+}
+
+div#meu-form {
+    background-color: lightgray;
+}
+
+#meu-form input[type=submit] {
+    background-color: green;
+}
+
+ul.preco-produto { 
+    font-size:small;
+}
+
+ul.preco-produto {
+    list-style-type: none;
+}
